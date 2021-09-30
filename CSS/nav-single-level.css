@@ -1,0 +1,70 @@
+/* Styles for Single Level Menu */
+
+
+@media screen and (max-width: 30em){
+	.single-nav ul {
+		padding-left: 2em;
+        flex-wrap: wrap;
+	}
+
+    .single-nav ul .toggled-on {
+		display: flex;
+	}
+
+    .menu li a {
+        color: #000;
+        background-color: #fff;
+    }
+
+    .menu ul {
+        background-color: #fff;
+    }
+
+    .btn {
+        color: black;
+        font-weight: normal;
+        background-color: rgb(255, 115, 0);
+        border: 0;
+        border-radius: 4px;
+        
+    }
+
+    button:hover {
+       background-color: rgb(250, 135, 27);
+    }
+
+}
+
+@media screen and (min-width: 30em){
+	.single-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        background-color: #fff;
+        
+	}	
+
+	.single-nav ul .toggled-on {
+		display: flex;
+	}
+
+    .menu li a {
+        color: #000;
+    }
+
+
+    .btn {
+        color: black;
+        font-weight: normal;
+        background-color: rgb(255, 115, 0);
+        border: 0;
+        border-radius: 4px;
+        
+    }
+
+    button:hover {
+       background-color: rgb(250, 135, 27);
+    }
+
+	
+}

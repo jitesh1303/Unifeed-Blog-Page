@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Flexbox Full Site Demo</title>
+    <meta name="description" content="Flexible box Full Site demo from Morten Rand-Hendriksen, staff author at lynda.com"/>
+                
+    <link rel="stylesheet" href="style-all-together.css" type="text/css" media="all">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="outer-wrap">
+
+    <header class="masthead">
+        <div class="sidebar-switcher">
+            Select layout: <a href="#" class="sidebar-left-toggle"><i class="fa fa-align-left"></i><span class="screen-reader-text">Move sidebar to the left</span></a> <a href="#" class="sidebar-right-toggle"><i class="fa fa-align-right"></i><span class="screen-reader-text">Move sidebar to the right</span></a> <a href="#" class="no-sidebar-toggle"><i class="fa fa-align-justify"></i><span class="screen-reader-text">Remove sidebar</span></a>  <a href="#" class="hide-sidebar-toggle"><i class="fa fa-arrow-circle-right"></i><span class="screen-reader-text">Remove sidebar</span></a>
+        </div><!-- .sidebar-switcher -->
+
+        <div class="centered">
+            <div class="site-branding">
+                <img id="logo" src="images/cropped/Logo.svg" alt="Logo" style="width: 8rem; height: 5rem; ">
+            </div><!-- .site-branding -->
+        </div><!-- .centered -->
+        
+        <div class="example-menu">
+            <nav id="single-nav" class="single-nav menu" role="navigation" style="background-color: #fff;">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <button class="btn">Subscribe</button>       
+                </ul>
+                
+            </nav><!-- #single-nav .single-nav -->
+           
+        </div><!-- .mixed-menu -->
+        
+    </header><!-- .masthead -->
+    
+    <div class="content">
+        <main class="main-area">
+            <article class="card">
+                <a href="#" class="main-card">
+                    <div>
+                       <img class="inner-img" src="images/cropped/Main Article Image.png" alt="article image">
+                    </div>
+                    
+                    <div class="card-content" style="padding-top: 0;">
+                        <h2 style="margin-top: 0px;">Weekly Newletter: Tweets for Higher Engagements</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam volutpat lectus non scelerisque. Cras nec metus nisl. Nunc laoreet interdum dignissim. Nam lacus sem, lacinia eget augue non, tincidunt pharetra risus. Nunc posuere consequat quam, congue consectetur est aliquet ut. Ut sit amet tellus vitae ante hendrerit lobortis. Curabitur at faucibus diam, ac mattis ipsum.</p>
+                    </div>
+                </a>    
+                
+            </article>
+         
+            
+            <section class="cards">
+                
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/Article 1 Image.png" alt="a mobile">
+                        </picture>
+                        <div class="card-content">
+                            <h2>The Banana Bird</h2>
+                            <p>This banana looks a lot like a bird, doesn't it? When originally posted there was some debate whether it was a hummingbird, a seagull, or a crow. I stand by my earlier statement that it is a banana.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/Article 2 Image.png" alt="calender">
+                        </picture>
+                        <div class="card-content">
+                            <h2>Norwegian Boller</h2>
+                            <p>Boller - or sweet wheat buns - is a favored snack and comfort food for Norwegians, especially enjoyed for childrens' birthdays or on a cold and rainy/snowy day coupled with hot cocoa.</p>
+                            <p>One of the key ingredients of boller is cardamom - something that gives them a distinct aroma and gives them the more lengthy name "cardamom boller".</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/Article 3 Image.png" alt="table with many utensils">
+                        </picture>
+                        <div class="card-content">
+                            <h2>A Dinosaur and Its Jacket</h2>
+                            <p>They say dinosaurs had feathers. I prefer to think they were a bit more stylish than that, as proven by this dinosaur wearing a swanky aluminium coat.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/boller-surprise.jpg" alt="Chocolate filled boller">
+                        </picture>
+                        <div class="card-content">
+                            <h2>A Sweet Surprise</h2>
+                            <p>Oh yes: Sometimes when you bake boller, you put a piece of chocolate (usually dark) in the center before baking. That way when an unsuspecting recipient bites into the baked deliciousness they get a sweet surprise.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/chocolate-frog.jpg" alt="Chocolate frog on oranges">
+                        </picture>
+                        <div class="card-content">
+                            <h2>Chocolate Frogs Love Oranges</h2>
+                            <p>You know what's better than a chocolate covered caramel filled frog from Denmark? A chocolate covered caramel filled frog from Denmark served with juicy slices of orange.</p>
+                            <p>Did I mention I like oranges?</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="images/cropped/diving-bird.jpg" alt="A whiskey jack taking a dive">
+                        </picture>
+                        <div class="card-content">
+                            <h2>Taking the Plunge</h2>
+                            <p>The Whiskey Jack is a surprisingly large bird that likes to eat food held up by tourists. In spite of what the image suggests, it does in fact have wings.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+            
+
+            </section><!-- .cards -->
+            
+        </main>
+
+        <div class="sidebar">
+            <div class="squish-container">
+            <h3>Explore the Demos:</h3>
+            <nav class="example-menu">
+                <ul>
+                    <li><a href="menus.html">Flexbox Menus</a></li>
+                    <li><a href="card-layout.html">Card Layout</a></li>
+                    <li><a href="holy-grail.html">Holy Grail</a></li>
+                    <li><a href="all-togehter.html">All Together Now</a></li>
+                </ul>
+            </nav><!-- .example-menu -->
+            </div>
+        </div><!-- .sidebar -->
+    </div><!-- .content -->
+
+    <footer class="footer-area">
+        <div>
+            <img id="logo" src="images/cropped/Logo.svg" alt="Logo" style="width: 5rem; height: 3rem; ">
+        </div>
+        <div>
+            <p>Unifeed © 2021 All Copyrights Not Reserved</p>
+        </div>
+       
+    </footer>
+
+    </div><!-- .outer-wrap -->
+
+    <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="JS/sidebar-switcher.js"></script>
+    <script type="text/javascript" src="JS/menu-toggle.js"></script>
+
+</body>
+
+</html>

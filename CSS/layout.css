@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+.centered {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 80em;
+    }
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
